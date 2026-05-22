@@ -21,6 +21,12 @@ docker push brammitch/kiada:<version>
 kubectl port-forward kiada 8080
 ```
 
+### Debugging
+
+```sh
+kubectl debug <pod> -it --image nicolaka/netshoot
+```
+
 # Teardown
 
 ```sh
