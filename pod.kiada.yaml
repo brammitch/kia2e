@@ -5,7 +5,6 @@ metadata:
 spec:
   containers:
   - name: kiada
-    image: brammitch/kiada:0.2
-    stdin: true
+    image: brammitch/kiada:0.1
     ports:
     - containerPort: 8080
