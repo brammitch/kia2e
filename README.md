@@ -33,6 +33,12 @@ kubectl port-forward kiada 8080
 kubectl debug <pod> -it --image nicolaka/netshoot
 ```
 
+### Cleanup
+
+```sh
+k delete -f pod.kiada.yaml
+```
+
 # Teardown
 
 ```sh
